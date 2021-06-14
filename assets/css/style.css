@@ -1,128 +1,32 @@
-* {
-  margin: 0;
+.app {
+
+}
+
+.heading__navbar {
+  height: var(--height-navbar);
+  border: none;
+  border-radius: 27px;
+  position: relative;
+  top: 0;
+  padding: 20px;
+}
+
+.navbar-list {
+  line-height: 3.6rem;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Comfortaa', cursive;
-  font-size: 62.5%;
-  line-height: 1.6rem;
-  scroll-behavior: smooth;
-}
-
-.music-album{
-   
-    width: 1225px;
-    height: 570px;
-    background-image: url(https://owa.bestprice.vn/images/destinations/uploads/trung-tam-thanh-pho-ha-noi-603da1f235b38.jpg)
-}
-
- .btn{
-     text-align: center;
-     justify-content: center;
-    padding: 5px 10px;
-     border-radius: 50px;
-     margin-top: 10px;
-     margin: 0 auto;
-    
- }
- .btn-phat,
- .btn-kara,
- .btn-loi{
-     background-color:rgba(156, 39, 176, 0.57);
-     color: white;
-    
-     
- }
- .btn + .btn{
-     margin-left: 16px;
- }
-.music-album .icon{
-   font-size: 20px;
-   color: aqua;
-   float: right;
-   margin-right: 200px;
-   margin-top: -20px;
- }
- .music-album .setting{
-   font-size: 20px;
-   color: pink;
-   float:right;
-   margin-right: 150px;
-   margin-top: -20px;
-
- }
- .music-album .tab{
-   font-size: 20px;
-   color: khaki;
-   float: right;
-   margin-right: 100px;
-   margin-top: -20px;
- }
- .music-album .mini-picture{
-  display: inline-block;
- }
- .music-album .picture{
-   margin-top: -240px;
-  text-align:center;
- margin-left: 500px;
-  
- }
- .music-album .picture-two{
-   margin-top: 30px;
-   margin-left: 50px;
- }
- .music-album .picture-three{
-   float: right;
-   margin-top: 30px;
-   margin-right: 50px;
-  
-
- }
- .music-album .name{
-   font-size: 50;
-   text-align: center;
-   color: ivory
-   
- }
- .progress {
-  width: 70%;
-  -webkit-appearance: none;
-  height: 8px;
-  margin-left: 200px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
-}
-/* CONTROL */
-.control {
+  list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-}
-
-.control .btn {
-  color: white;
-  padding: 18px;
-  font-size: 18px;
-}
-
-.control .btn.active {
-  color: var(--primary-color);
-}
-
-.control .btn-toggle-play {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  font-size: 24px;
-  color: #fff;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: var(--primary-color);
 }
+
+.navbar-list__item {
+  padding: 0 16px;
+}
+
+.list-item__link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  font-weight: 700;
+}
+

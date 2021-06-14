@@ -1,0 +1,51 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #ccc;
+    --text-color: #333;
+
+    --height-navbar: 76px;
+    --height-player: 558px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Comfortaa', cursive;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}
+
+/* Slider */
+.slider {
+    
+
+}
+
+.slider-music {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.slider-music__song {
+    min-width: 50%;
+    border-radius: 10px;
+}
+
+.music-song__img {
+    padding: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 153px;
+}
+
+.music-song__description {
+
+}

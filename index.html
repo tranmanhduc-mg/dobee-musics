@@ -12,61 +12,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="music-album">
-        <div class="btn">
-            <button class="btn btn-phat"> Danh sach phat</button>
-            <button class="btn btn-kara">Karaoke</button>
-            <button class="btn btn-loi">Loi bai hat</button>
-           
+
+    <div class="app">
+        <!-- Header -->
+        <div class="heading__navbar">
+            <ul class="navbar-list">
+              <li class="navbar-list__item">
+                <a href="#" class="list-item__link">Trình nghe nhạc</a>
+              </li>
+              <li class="navbar-list__item">
+                <a href="#" class="list-item__link">Danh Sách Phát</a>
+              </li>
+              <li class="navbar-list__item">
+                <a href="#" class="list-item__link">Thông tin</a>
+              </li>
+            </ul>
         </div>
-        <div class="icon">
-            <i class="fas fa-location-arrow"></i>
-          </div>
-        <div class="setting">
-          <i class="fas fa-cog"></i>
-          </div>
-          <div class="tab">
-            <i class="fas fa-ellipsis-v"></i>
+
+        <!-- Body slider -->
+        <div class="slider">
+            <div class="slider-music">
+                <div class="slider-music__song">
+                  <div class="music-song__img" style="background-image: url('./assets/image/song-img-1.jpg');"></div>
+                  <div class="music-song__description">
+                      <span class="song-name">Sắp 30</span>
+                      <span class="song-singer">Trịnh Đình Quang</span>
+                  </div>
+                </div>
             </div>
-      <div class="mini-picture"> 
-        <div class="picture-two"><img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/5/d/2/05d288a21458ea7c380c97b4c27aab12.jpg" alt="">
+        </div>
+
+        <!-- Control -->
+        <div class="control-music">
+            <div class="control-progress">
+                <input type="range" name="music-progress" id="" class="progress-1">
             </div>
-         <div class="picture"> <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/d/9/e/9/d9e901750b0205d7fd0cbc8bd87aea85.jpg" alt=""> 
-         </div>
-      </div>
-      <div class="picture-three"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Son_Tung_M-TP_-_Lac_troi.png/220px-Son_Tung_M-TP_-_Lac_troi.png" alt=""> 
-      </div>
-      <div class="name">
-        <h3>Sắp 30</h3>
-        <h4>Trịnh Đình Quang</h4>
-      </div>
-      <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
-      <!-- Control -->
-    <div class="control">
-      <div class="btn btn-repeat">
-        <i class="fas fa-redo"></i>
-      </div>
-      <div class="btn btn-prev">
-        <i class="fas fa-step-backward"></i>
-      </div>
-      <div class="btn btn-toggle-play">
-        <i class="fas fa-pause icon-pause"></i>
-        <i class="fas fa-play icon-play"></i>
-      </div>
-      <div class="btn btn-next">
-        <i class="fas fa-step-forward"></i>
-      </div>
-      <div class="btn btn-random">
-        <i class="fas fa-random"></i>
-      </div>
+            <div class="control-button">
+                <ul class="control-button__list">
+                  <li class="control-button__item">
+                    <i class="fas fa-redo"></i>
+                  </li>
+                  <li class="control-button__item">
+                    <i class="fas fa-step-backward"></i>
+                  </li>
+                  <li class="control-button__item">
+                    <i class="fas fa-pause icon-pause"></i>
+                  </li>
+                  <li class="control-button__item">
+                    <i class="fas fa-step-forward"></i>
+                  </li>
+                  <li class="control-button__item">
+                    <i class="fas fa-random"></i>
+                  </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    </div>
-    
-   </div>
-      
-  </div>
 </body>
 </html>
