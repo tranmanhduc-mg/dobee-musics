@@ -1,3 +1,5 @@
 # Dobee Music
 
-tranmanhduc-mg
+## Team Member: 
+- tranmanhduc-mg
+- Dong Ngo
