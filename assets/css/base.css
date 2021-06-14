@@ -39,11 +39,9 @@
 }
 
 .music-song__img {
-    padding: 30%;
-    background-repeat: no-repeat;
-    background-size: contain;
     position: relative;
     left: 153px;
+    border-radius: 4px;
 }
 
 .music-song__description {
